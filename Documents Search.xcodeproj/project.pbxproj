@@ -31,14 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2DDB6C5920F3E26F00316D64 /* Documents Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Documents Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDB6C5920F3E26F00316D64 /* Documents Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Documents Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDB6C5C20F3E27000316D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DDB6C6120F3E27000316D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DDB6C6420F3E27000316D64 /* Documents_Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Documents_Core_Data.xcdatamodel; sourceTree = "<group>"; };
 		2DDB6C6620F3E27100316D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DDB6C6920F3E27100316D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DDB6C6B20F3E27100316D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DDB6C7020F3E27100316D64 /* Documents Core DataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Documents Core DataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDB6C7020F3E27100316D64 /* Documents SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Documents SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDB6C7420F3E27100316D64 /* Documents_Core_DataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documents_Core_DataUITests.swift; sourceTree = "<group>"; };
 		2DDB6C7620F3E27100316D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DDB6C7F20F3E88B00316D64 /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		2DDB6C5A20F3E26F00316D64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DDB6C5920F3E26F00316D64 /* Documents Core Data.app */,
-				2DDB6C7020F3E27100316D64 /* Documents Core DataUITests.xctest */,
+				2DDB6C5920F3E26F00316D64 /* Documents Search.app */,
+				2DDB6C7020F3E27100316D64 /* Documents SearchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DDB6C5820F3E26F00316D64 /* Documents Core Data */ = {
+		2DDB6C5820F3E26F00316D64 /* Documents Search */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DDB6C7920F3E27100316D64 /* Build configuration list for PBXNativeTarget "Documents Core Data" */;
+			buildConfigurationList = 2DDB6C7920F3E27100316D64 /* Build configuration list for PBXNativeTarget "Documents Search" */;
 			buildPhases = (
 				2DDB6C5520F3E26F00316D64 /* Sources */,
 				2DDB6C5620F3E26F00316D64 /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = "Documents Core Data";
+			name = "Documents Search";
 			productName = "Documents Core Data";
-			productReference = 2DDB6C5920F3E26F00316D64 /* Documents Core Data.app */;
+			productReference = 2DDB6C5920F3E26F00316D64 /* Documents Search.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2DDB6C6F20F3E27100316D64 /* Documents Core DataUITests */ = {
+		2DDB6C6F20F3E27100316D64 /* Documents SearchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DDB6C7C20F3E27100316D64 /* Build configuration list for PBXNativeTarget "Documents Core DataUITests" */;
+			buildConfigurationList = 2DDB6C7C20F3E27100316D64 /* Build configuration list for PBXNativeTarget "Documents SearchUITests" */;
 			buildPhases = (
 				2DDB6C6C20F3E27100316D64 /* Sources */,
 				2DDB6C6D20F3E27100316D64 /* Frameworks */,
@@ -152,9 +152,9 @@
 			dependencies = (
 				2DDB6C7220F3E27100316D64 /* PBXTargetDependency */,
 			);
-			name = "Documents Core DataUITests";
+			name = "Documents SearchUITests";
 			productName = "Documents Core DataUITests";
-			productReference = 2DDB6C7020F3E27100316D64 /* Documents Core DataUITests.xctest */;
+			productReference = 2DDB6C7020F3E27100316D64 /* Documents SearchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2DDB6C5420F3E26F00316D64 /* Build configuration list for PBXProject "Documents Core Data" */;
+			buildConfigurationList = 2DDB6C5420F3E26F00316D64 /* Build configuration list for PBXProject "Documents Search" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,8 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DDB6C5820F3E26F00316D64 /* Documents Core Data */,
-				2DDB6C6F20F3E27100316D64 /* Documents Core DataUITests */,
+				2DDB6C5820F3E26F00316D64 /* Documents Search */,
+				2DDB6C6F20F3E27100316D64 /* Documents SearchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,7 +243,7 @@
 /* Begin PBXTargetDependency section */
 		2DDB6C7220F3E27100316D64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DDB6C5820F3E26F00316D64 /* Documents Core Data */;
+			target = 2DDB6C5820F3E26F00316D64 /* Documents Search */;
 			targetProxy = 2DDB6C7120F3E27100316D64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -394,7 +394,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "online.techinnovator.Documents-Core-Data";
+				PRODUCT_BUNDLE_IDENTIFIER = "online.krekelerbrendan.Documents-Core-Data-Search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -413,7 +413,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "online.techinnovator.Documents-Core-Data";
+				PRODUCT_BUNDLE_IDENTIFIER = "online.krekelerbrendan.Documents-Core-Data-Search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,7 +463,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DDB6C5420F3E26F00316D64 /* Build configuration list for PBXProject "Documents Core Data" */ = {
+		2DDB6C5420F3E26F00316D64 /* Build configuration list for PBXProject "Documents Search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DDB6C7720F3E27100316D64 /* Debug */,
@@ -472,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DDB6C7920F3E27100316D64 /* Build configuration list for PBXNativeTarget "Documents Core Data" */ = {
+		2DDB6C7920F3E27100316D64 /* Build configuration list for PBXNativeTarget "Documents Search" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DDB6C7A20F3E27100316D64 /* Debug */,
@@ -481,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DDB6C7C20F3E27100316D64 /* Build configuration list for PBXNativeTarget "Documents Core DataUITests" */ = {
+		2DDB6C7C20F3E27100316D64 /* Build configuration list for PBXNativeTarget "Documents SearchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DDB6C7D20F3E27100316D64 /* Debug */,
